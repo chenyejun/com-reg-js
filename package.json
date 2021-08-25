@@ -1,0 +1,26 @@
+{
+  "name": "com-reg-js",
+  "version": "1.0.1",
+  "description": "com-reg-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenyejun/com-reg-js.git"
+  },
+  "keywords": [
+    "common",
+    "reg",
+    "js",
+    "javasript",
+    "regularity"
+  ],
+  "author": "chenyejun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenyejun/com-reg-js/issues"
+  },
+  "homepage": "https://github.com/chenyejun/com-reg-js#readme"
+}
