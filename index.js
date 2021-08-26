@@ -1,5 +1,7 @@
 import isNumber from './source/isNumber'
-export const isNumber
+export {
+  isNumber
+}
 // const comReg = {
 //   isNumber
 // }
