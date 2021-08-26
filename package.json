@@ -1,6 +1,6 @@
 {
   "name": "com-reg-js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "com-reg-js",
   "main": "index.js",
   "typings": "./index.d.ts",
