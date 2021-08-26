@@ -1,4 +1,5 @@
 import isNumber from './source/isNumber'
-export default {
+const comReg = {
   isNumber
 }
+export default comReg

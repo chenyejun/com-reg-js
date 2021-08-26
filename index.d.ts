@@ -1,4 +1,4 @@
-declare interface IsNumber{
-  (value: number):any
+declare namespace comReg {
+  const isNumber: any;
 }
-declare var isNumber:IsNumber
+export default comReg
