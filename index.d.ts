@@ -1,5 +1,3 @@
 export const isNumber: any
-// declare namespace comReg {
-//   const isNumber: any;
-// }
-// export default comReg
+export const isChinese: any
+export const isEmail: any

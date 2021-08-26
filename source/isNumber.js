@@ -1,4 +1,4 @@
-const pattern = /^[0-9]*$/g
+const pattern = /^[0-9]*$/
 const isNumber = {
   test: (value) => {
     return pattern.test(value)

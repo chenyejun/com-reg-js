@@ -23,5 +23,14 @@
   "bugs": {
     "url": "https://github.com/chenyejun/com-reg-js/issues"
   },
-  "homepage": "https://github.com/chenyejun/com-reg-js#readme"
+  "homepage": "https://github.com/chenyejun/com-reg-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/runtime": "^7.15.3",
+    "babel-loader": "^8.2.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
 }

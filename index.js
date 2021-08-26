@@ -1,8 +1,4 @@
 import isNumber from './source/isNumber'
-export {
+export default {
   isNumber
 }
-// const comReg = {
-//   isNumber
-// }
-// export default comReg
