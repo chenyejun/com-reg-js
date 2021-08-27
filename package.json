@@ -1,13 +1,12 @@
 {
   "name": "com-reg-js",
-  "version": "1.0.10",
+  "version": "1.0.9",
   "description": "com-reg-js",
   "main": "./lib/index.js",
   "typings": "./index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node createIndex.js && webpack",
-    "publish": "npm version patch && npm publish"
+    "build": "node createIndex.js && webpack"
   },
   "repository": {
     "type": "git",
