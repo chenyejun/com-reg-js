@@ -1,13 +1,13 @@
 var path = require('path');
 const packageInfo = require('./package.json');
 module.exports = {
-  entry: './index.js', //入口文件
+  entry: './index.js',
   output: {
     library: 'comRegJs',
     libraryTarget: 'umd',
-    libraryExport: 'default', // 增加这个属性
+    libraryExport: 'default',
     path: path.resolve(__dirname, 'lib'),
-    filename: `com-reg-js@${packageInfo.version}.js`
+    filename: `index.js`
   },
   module: {
     rules: [

@@ -2,10 +2,12 @@
   "name": "com-reg-js",
   "version": "1.0.7",
   "description": "com-reg-js",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "typings": "./index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node createIndex.js && webpack",
+    "publish": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,7 @@
     "@babel/preset-env": "^7.15.0",
     "@babel/runtime": "^7.15.3",
     "babel-loader": "^8.2.2",
+    "glob": "^7.1.7",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3"
   }

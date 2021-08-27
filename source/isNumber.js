@@ -1,3 +1,4 @@
+// 是否为数字
 const pattern = /^[0-9]*$/
 const isNumber = {
   test: (value) => {
